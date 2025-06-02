@@ -49,8 +49,13 @@
                             "type": "object"
                         },
 						"filterPatterns": {
-							"type": "object"
-						}
+                  			"type": "array",
+                 			"items": [
+                    			{
+                      				"type": "object"
+                    			}
+                  			]
+                		}
                     },
                     "require": [
                         "type",
